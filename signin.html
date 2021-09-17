@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7a1d819b9f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="icon" type="image/gif/png" href="favicon.ico.png">
+    <style>
+        @font-face {
+        src: url(./Fonts/Burbank\ Big\ Condensed\ Black\ 700.ttf);
+        font-family: Burbank;
+    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       #header {
+        color: azure;
+        font-family: Burbank;
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+       }
+
+        body {
+            height: 100vh;
+            background-image:linear-gradient(to right bottom, rgba(7, 7, 7, 0.8), rgba(39, 38, 38, 0.8)) ,url(./img/bg_movies.jpg);
+            max-width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: rgb(3, 3, 3);
+            font-family: sans-serif;
+        }
+
+        
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            padding: 2rem;
+            background: rgb(255, 255, 255);
+            border-radius: 20px;
+            max-width: 100%;
+            height: 500px;
+            box-shadow: 5px 20px 20px 20px rgb(29, 28, 28);
+        }
+
+        .center h2 {
+            text-align: center;
+            font-family: Burbank;
+            font-size: 3rem;
+            margin-bottom: 50px;
+        }
+
+        .center form {
+            padding: 1vw;
+            box-sizing: border-box;
+        }
+
+        form .txt-field {
+            position: relative;
+            border-bottom: 2px solid rgb(0, 0, 0);
+            margin:30px 0;
+        }
+
+        .txt-field input {
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 1rem;
+            border: none;
+            background: none;
+            outline: none;
+        }
+
+        .pass {
+            margin: -5px 0 20px 5px;
+            color: #777;
+            cursor: pointer;
+            font-size: 15px;
+            margin-bottom: 40px;
+            
+        }
+
+        .pass:hover {
+            text-decoration: underline;
+        }
+
+        .btn:link,
+        .btn:visited {
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -30%);
+            text-decoration: none;
+            padding: 1rem 3rem;
+            border-radius: 100px;
+            transition: all .2s;
+            position: relative; }
+
+        .btn-black {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255); 
+        }
+
+        .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+        }
+
+        .signup-link {
+            margin: 40px 0;
+            text-align: center;
+            font-size: .8rem;
+            color: rgb(0, 0, 0);
+        }
+
+        .signup-link a {
+            text-decoration: none;
+        }
+
+       
+    </style>
+
+    <title>GeTFlix</title>
+</head>
+
+
+
+    <body>
+
+        <h1 id="header">GeTFlix</h1>
+
+      <div class="center">
+          <h2>Sign in</h2>
+          <form method="POST">
+              <div class="txt-field">
+                  <input type="text" required placeholder="Username">
+              </div>
+
+              <div class="txt-field">
+                <input type="password" required placeholder="Password">
+            </div>
+
+            <div class="pass">Forgot Password?</div>
+            <a href="index.html" class="btn btn-black">Sign in</a>
+
+            <!-- <a href="#"><input type="button" value="Sign in"></a> -->
+
+            <div class="signup-link">
+                New to GeTFlix? <a href="register.html">Create an account</a>
+            </div>
+          </form>
+      </div>
+
+
+    
+    </body>
+    </html>

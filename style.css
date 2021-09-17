@@ -1,0 +1,292 @@
+@font-face {
+    src: url(./Fonts/Burbank\ Big\ Condensed\ Black\ 700.ttf);
+    font-family: Burbank;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+
+nav {
+    background: rgb(0, 0, 0);
+    position: fixed;
+}
+
+.badge {
+    position: relative;
+    top: 20px;
+    right: 25px;
+}
+
+.sidenav {
+    background-color: #fff;
+}
+
+/* Hover */
+
+.cool-link::after {
+    content: "";
+    display:block;
+    width: 0;
+    height:1px ;
+    background:#fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    align-items: center;
+}
+
+.brand-logo {
+    font-family: Burbank;
+}
+
+#logo {
+    font-size: 3rem;
+}
+
+/* Header */
+
+
+.bg-image {
+    max-width: 100%;
+    width: 100%;
+}
+
+.btn:link,
+.btn:visited {
+    
+    border-radius: 50px;
+    padding: .1rem 2rem;
+    transition: all .2s;
+    position: relative;
+    bottom: 20rem;
+    left: 1rem;
+    max-width: 100%;
+    width: 15%;
+    font-size: 1rem;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: black;
+    text-transform:initial;
+}
+
+.btn-grey {
+    background-color: #777;
+    text-transform: initial;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+
+
+/* .image-fluid {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 1px;
+} */
+
+/* .image-container {
+    padding-top:4rem ;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 40%;
+    max-height: 80%;
+    height: 800px;
+   
+} */
+
+/* Top 10 */
+
+.top-area {
+    background: rgb(41, 40, 40);
+    color: white;
+    font-family: Burbank;
+    font-size: 4vw;
+    margin-top: -10px;
+}
+
+#top {
+    padding: 2rem;
+}
+
+.poster-part {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-evenly ;
+    background: rgb(7, 7, 7);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: Burbank;
+    float: left;
+    font-size: 8vw;
+    font-weight: 900;
+}
+h5 {
+    font-size: 3rem;
+    font-family: Burbank;
+}
+
+
+.top-movie {
+    width: 400px;
+    height: 400px;
+    max-width: 80%;
+    max-height:100%;
+}
+
+.container-poster ul {
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 50%;
+    max-width: 100%;
+}
+
+
+/* Movie */
+
+.movies-area {
+    background: rgb(41, 40, 40);
+    color: white;
+    font-family: Burbank;
+    font-size: 4vw;
+    top: 50px;
+    left: 50px;
+}
+
+#movie {
+    padding-left: 2rem;
+}
+
+.movie-part {
+    display: flex;
+    padding:4rem;
+    justify-content: space-evenly;
+    background:rgb(7, 7, 7) ;
+}
+
+.movies {
+    width: 400px;
+    height: 400px;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+
+/* Tv Show */
+
+.tvshow-area {
+    background:rgb(41, 40, 40);
+    color: white;
+    font-family: Burbank;
+    font-size: 4vw;
+}
+
+#tvshow {
+    padding-left: 2rem;
+}
+
+.tvshow-part {
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+    background: rgb(7, 7, 7) ;
+}
+
+.show {
+    width: 400px;
+    height: 400px;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+/* Anime */
+
+.anime-area {
+    background:rgb(41, 40, 40);
+    color: white;
+    font-family: Burbank;
+    font-size: 4vw;
+}
+
+#anime {
+    padding-left: 2rem;
+}
+
+.anime-part {
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+    background: rgb(7, 7, 7);
+}
+
+.anime {
+    width: 400px;
+    height: 400px;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+
+/* My List */
+
+.mylist-area {
+    background:rgb(41, 40, 40) ;
+    color: #fff;
+    font-family: Burbank;
+    font-size: 4vw;
+}
+
+#list {
+    padding-left: 2rem;
+}
+
+.mylist-part {
+    display: flex;
+    padding: 4rem;
+    justify-content: space-evenly;
+    background:rgb(7, 7, 7) ;
+}
+
+.mylist {
+    width: 400px;
+    height: 400px;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+
+
+.page-footer {
+    background:rgb(0, 0, 0) ;
+}
+
+
+
+
+
+
+
+
+
+
+
